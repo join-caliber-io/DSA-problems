@@ -16,7 +16,7 @@ int main()
 {
     int arr[] = {1, 2, 2, 2, 2, 3, 4, 7 ,8 ,8, 9 , 9 , 10, 11, 11 };
     int n = sizeof(arr)/sizeof(arr[0]);
-    int x = 11;
+    int x = 2;
     cout << countOccurrences(arr, n, x);
     return 0;
 }
